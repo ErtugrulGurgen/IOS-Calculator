@@ -94,3 +94,29 @@ body {
 .zero:hover {
   background-color: rgba(192, 190, 190, 0.397);
 }
+@media screen and (max-width: 600px) {
+  body {
+    display: inline-block;
+    position: static;
+  }
+  .log-btn {
+    position: static;
+    top: 35rem;
+    margin-left: 16rem;
+    margin-top: 1rem;
+  }
+  .log{
+    display: none;
+    margin: 0 0 0 0;
+  }
+  .container {
+    position: static;
+    top: 1rem;
+    left: 22rem;
+    display: inline-block;
+    margin: 1rem 0 0 8rem;
+    width: 19rem;
+    height: 33rem;
+    background-color: black;
+    border-radius: 2rem;
+  }}
