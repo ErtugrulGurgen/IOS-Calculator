@@ -40,7 +40,7 @@ for (let o = 0; o < operatorByClass.length; o++) {
           firstOpById.innerHTML = firstOpById.innerHTML.slice(0, -1);
           LogById.innerHTML += `\n ${firstOpById.innerHTML} + ${resultById.innerHTML} `;
           resultById.innerHTML =
-            parseInt(firstOpById.innerHTML) + parseInt(resultById.innerHTML);
+            parseFloat(firstOpById.innerHTML) + parseFloat(resultById.innerHTML);
             LogById.innerHTML += `= ${resultById.innerHTML}`;
           firstOpById.innerHTML = "";
           break;
@@ -48,7 +48,7 @@ for (let o = 0; o < operatorByClass.length; o++) {
           firstOpById.innerHTML = firstOpById.innerHTML.slice(0, -1);
           LogById.innerHTML += `\n ${firstOpById.innerHTML} - ${resultById.innerHTML} `;
           resultById.innerHTML =
-            parseInt(firstOpById.innerHTML) - parseInt(resultById.innerHTML);
+            parseFloat(firstOpById.innerHTML) - parseFloat(resultById.innerHTML);
             LogById.innerHTML += `= ${resultById.innerHTML}`;
           firstOpById.innerHTML = "";
           break;
@@ -56,7 +56,7 @@ for (let o = 0; o < operatorByClass.length; o++) {
           firstOpById.innerHTML = firstOpById.innerHTML.slice(0, -1);
           LogById.innerHTML += `\n ${firstOpById.innerHTML} ÷ ${resultById.innerHTML} `;
           resultById.innerHTML =
-            parseInt(firstOpById.innerHTML) / parseInt(resultById.innerHTML);
+            parseFloat(firstOpById.innerHTML) / parseFloat(resultById.innerHTML);
             LogById.innerHTML += `= ${resultById.innerHTML}`;
           firstOpById.innerHTML = "";
           break;
@@ -64,7 +64,7 @@ for (let o = 0; o < operatorByClass.length; o++) {
           firstOpById.innerHTML = firstOpById.innerHTML.slice(0, -1);
           LogById.innerHTML += `\n ${firstOpById.innerHTML} x ${resultById.innerHTML} `;
           resultById.innerHTML =
-            parseInt(firstOpById.innerHTML) * parseInt(resultById.innerHTML);
+            parseFloat(firstOpById.innerHTML) * parseFloat(resultById.innerHTML);
             LogById.innerHTML += `= ${resultById.innerHTML}`;
           firstOpById.innerHTML = "";
           break;
