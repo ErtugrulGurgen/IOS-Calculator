@@ -101,7 +101,7 @@ for (let o = 0; o < operatorByClass.length; o++) {
           case "+":
             firstOpById.innerHTML = firstOpById.innerHTML.slice(0, -1);
             firstOpById.innerHTML =
-              parseInt(firstOpById.innerHTML) + parseInt(resultById.innerHTML);
+              parseFloat(firstOpById.innerHTML) + parseFloat(resultById.innerHTML);
             operand = operatorByClass[o].innerHTML;
             firstOpById.innerHTML += operand;
             resultById.innerHTML = "";
@@ -110,7 +110,7 @@ for (let o = 0; o < operatorByClass.length; o++) {
           case "-":
             firstOpById.innerHTML = firstOpById.innerHTML.slice(0, -1);
             firstOpById.innerHTML =
-              parseInt(firstOpById.innerHTML) - parseInt(resultById.innerHTML);
+              parseFloat(firstOpById.innerHTML) - parseFloat(resultById.innerHTML);
             operand = operatorByClass[o].innerHTML;
             firstOpById.innerHTML += operand;
             resultById.innerHTML = "";
@@ -118,7 +118,7 @@ for (let o = 0; o < operatorByClass.length; o++) {
           case "÷":
             firstOpById.innerHTML = firstOpById.innerHTML.slice(0, -1);
             firstOpById.innerHTML =
-              parseInt(firstOpById.innerHTML) / parseInt(resultById.innerHTML);
+              parseFloat(firstOpById.innerHTML) / parseFloat(resultById.innerHTML);
             operand = operatorByClass[o].innerHTML;
             firstOpById.innerHTML += operand;
             resultById.innerHTML = "";
@@ -126,7 +126,7 @@ for (let o = 0; o < operatorByClass.length; o++) {
           case "x":
             firstOpById.innerHTML = firstOpById.innerHTML.slice(0, -1);
             firstOpById.innerHTML =
-              parseInt(firstOpById.innerHTML) * parseInt(resultById.innerHTML);
+              parseFloat(firstOpById.innerHTML) * parseFloat(resultById.innerHTML);
             operand = operatorByClass[o].innerHTML;
             firstOpById.innerHTML += operand;
             resultById.innerHTML = "";
