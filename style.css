@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+.log {
+  display: inline-block;
+  vertical-align: top;
+  width: 20rem;
+  height: 20rem;
+  background-color: rgba(238, 212, 178, 0.616);
+  margin: 8rem 0 4rem 2rem;
+  display: none;
+  border-radius: 2rem;
+  padding: 1rem 0 0 1rem;
+}
+.log-btn {
+  position:absolute;
+  top: 35rem;  
+  margin-left: 38rem;
+  margin-top: 1rem;
+}
+.container {
+  position: absolute;
+  top: 1rem;
+  left: 22rem;
+  display: inline-block;
+  margin: 1rem 0 0 8rem;
+  width: 19rem;
+  height: 33rem;
+  background-color: black;
+  border-radius: 2rem;
+}
+.first-op {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  text-align: end;
+  color: darkgray;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 17rem;
+  height: 50px;
+  word-wrap:break-word;
+}
+.result {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  text-align: end;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 17rem;
+  height: 55px;
+  word-wrap:break-word;
+}
+.buttons {
+  margin-left: 0.7rem;
+}
+.button {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 5rem;
+  margin: 0.5%;
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+}
+.top-btn {
+  background-color: darkgray;
+  color: black;
+}
+.top-btn:hover {
+  background-color: rgb(212, 208, 208);
+}
+.operator {
+  background-color: rgb(218, 145, 9);
+  color: white;
+}
+.operator:hover {
+  background-color: rgb(241, 192, 101);
+}
+.number {
+  background-color: rgba(104, 95, 95, 0.397);
+  color: white;
+}
+.number:hover {
+  background-color: rgba(192, 190, 190, 0.397);
+}
+.zero {
+  background-color: rgba(104, 95, 95, 0.397);
+  color: white;
+  width: 8.5rem;
+}
+.zero:hover {
+  background-color: rgba(192, 190, 190, 0.397);
+}
