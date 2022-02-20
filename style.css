@@ -101,7 +101,6 @@ body {
   }
   .log-btn {
     position: static;
-    top: 35rem;
     margin-left: 16rem;
     margin-top: 1rem;
   }
@@ -111,10 +110,7 @@ body {
   }
   .container {
     position: static;
-    top: 1rem;
-    left: 22rem;
     display: inline-block;
-    margin: 1rem 0 0 8rem;
     width: 19rem;
     height: 33rem;
     background-color: black;
